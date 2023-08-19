@@ -15,9 +15,8 @@ namespace ConsoleApp4
         {
             MusicDbContext msd = new MusicDbContext();
 
-            
-
             msd.SaveChanges();
+            
         }
     }
 }
